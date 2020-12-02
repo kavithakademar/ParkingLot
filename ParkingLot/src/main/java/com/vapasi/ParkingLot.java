@@ -17,6 +17,9 @@ public class ParkingLot {
     }
 
     public Car unPark(Object token) {
+        if(token == null) {
+            throw new InvalidTokenException("Please enter valid exception");
+        }
         Car car = parkingSlots.get(token);
         parkingSlots.remove(token);
         return car;

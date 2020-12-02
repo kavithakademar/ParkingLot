@@ -29,4 +29,12 @@ public class ParkingLotTest {
         assertEquals(car, unpackedCar);
     }
 
+    @Test
+    public void shouldThrowExceptionWhenUnParkUsedInvalidToken() {
+        token = parkingLot.park(car);
+        token =null;
+        assertThrows(InvalidTokenException.class , () -> parkingLot.unPark(token));
+    }
+
+
 }
