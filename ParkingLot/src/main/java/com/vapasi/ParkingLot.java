@@ -6,7 +6,18 @@ import java.util.List;
 public class ParkingLot {
     List<String> parkingSlots = new ArrayList<>();
 
-    public boolean park(String carNo) {
-        return parkingSlots.add(carNo);
+    public void park(String car) {
+        parkingSlots.add(car);
+    }
+    public boolean isParked(String car){
+        return parkingSlots.contains(car);
+    }
+
+    public void unPark(String car) {
+        parkingSlots.remove(car);
+    }
+
+    public boolean isUnParked(String car) {
+        return !parkingSlots.contains(car);
     }
 }
