@@ -7,15 +7,15 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 
 public class ParkingLotTest {
-    ParkingLot parkingLot;
+    static ParkingLot parkingLot;
 
     @BeforeAll
-    public void setup() {
+    public static void setup() {
         parkingLot = new ParkingLot();
     }
 
     @Test
     public void shouldParkMyCar()   {
-        assertTrue(parkingLot.park("Car"));
+        assertTrue(parkingLot.park("KA8051"));
     }
 }
