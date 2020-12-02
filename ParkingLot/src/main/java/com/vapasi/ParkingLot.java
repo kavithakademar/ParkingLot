@@ -15,8 +15,8 @@ public class ParkingLot {
         return token;
     }
 
-    public boolean isParked(Car car) {
-        return parkingSlots.containsValue(car);
+    public boolean isParked(int tokenNum) {
+        return parkingSlots.get(tokenNum) != null;
     }
 
     public Car unPark(int tokenNum) {
@@ -25,7 +25,7 @@ public class ParkingLot {
         return car;
     }
 
-    public boolean isUnParked(int tokenNum) {
-        return !parkingSlots.containsKey(tokenNum);
+    public boolean isUnParked(Car car) {
+        return !parkingSlots.containsValue(car);
     }
 }

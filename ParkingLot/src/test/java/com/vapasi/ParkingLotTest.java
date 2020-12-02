@@ -19,14 +19,14 @@ public class ParkingLotTest {
     @Test
     public void shouldParkMyCarAndCheckIfItParkedOrNot() {
         tokenNum = parkingLot.park(car);
-        assertTrue(parkingLot.isParked(car));
+        assertTrue(parkingLot.isParked(tokenNum));
     }
 
     @Test
     public void shouldUnParkMyCar() {
         tokenNum = parkingLot.park(car);
         Car unparkedCar = parkingLot.unPark(tokenNum);
-        assertTrue(parkingLot.isUnParked(tokenNum));
+        assertTrue(parkingLot.isUnParked(unparkedCar));
         assertEquals(car, unparkedCar);
     }
 
