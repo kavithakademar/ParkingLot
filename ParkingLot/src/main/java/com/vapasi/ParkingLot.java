@@ -1,31 +1,25 @@
 package com.vapasi;
 
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.Map;
-import java.util.Set;
 
 public class ParkingLot {
-    static Map<Integer, Car> parkingSlots = new HashMap<>();
-    private static int token = 0;
+    static Map<Object, Car> parkingSlots = new HashMap<>();
 
-    public int park(Car car) {
-        token ++;
+    public Object park(Car car) {
+        Object token = new Object();
         parkingSlots.put(token, car);
         return token;
     }
 
-    public boolean isParked(int tokenNum) {
-        return parkingSlots.get(tokenNum) != null;
+    public boolean isParked(Car car) {
+        return parkingSlots.containsValue(car);
     }
 
-    public Car unPark(int tokenNum) {
-        Car car = parkingSlots.get(tokenNum);
-        parkingSlots.remove(tokenNum);
+    public Car unPark(Object token) {
+        Car car = parkingSlots.get(token);
+        parkingSlots.remove(token);
         return car;
     }
 
-    public boolean isUnParked(Car car) {
-        return !parkingSlots.containsValue(car);
-    }
 }

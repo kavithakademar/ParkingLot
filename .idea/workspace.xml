@@ -20,11 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b0dc898-2f07-4e0b-a2c8-f21fb1dfbedf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ParkingLot/src/main/java/com/vapasi/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ParkingLot/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/ParkingLot/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ParkingLot/src/main/java/com/vapasi/ParkingLot.java" beforeDir="false" afterPath="$PROJECT_DIR$/ParkingLot/src/main/java/com/vapasi/ParkingLot.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ParkingLot/src/test/java/com/vapasi/ParkingLotTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ParkingLot/src/test/java/com/vapasi/ParkingLotTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ParkingLot/com/vapasi/ParkingLot.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ParkingLot/com/vapasi/ParkingLot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/ParkingLot/com/vapasi/ParkingLotTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/ParkingLot/com/vapasi/ParkingLotTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,22 +128,22 @@
       <screen x="0" y="0" width="1366" height="640" />
     </state>
     <state x="488" y="35" key="#com.intellij.ide.util.MemberChooser/0.0.1366.640@0.0.1366.640" timestamp="1606894967683" />
-    <state width="1323" height="130" key="GridCell.Tab.0.bottom" timestamp="1606892664118">
+    <state width="1323" height="387" key="GridCell.Tab.0.bottom" timestamp="1606907534705">
       <screen x="0" y="0" width="1366" height="640" />
     </state>
-    <state width="1323" height="130" key="GridCell.Tab.0.bottom/0.0.1366.640@0.0.1366.640" timestamp="1606892664118" />
-    <state width="1323" height="130" key="GridCell.Tab.0.center" timestamp="1606892664118">
+    <state width="1323" height="387" key="GridCell.Tab.0.bottom/0.0.1366.640@0.0.1366.640" timestamp="1606907534705" />
+    <state width="1323" height="387" key="GridCell.Tab.0.center" timestamp="1606907534705">
       <screen x="0" y="0" width="1366" height="640" />
     </state>
-    <state width="1323" height="130" key="GridCell.Tab.0.center/0.0.1366.640@0.0.1366.640" timestamp="1606892664118" />
-    <state width="1323" height="130" key="GridCell.Tab.0.left" timestamp="1606892664118">
+    <state width="1323" height="387" key="GridCell.Tab.0.center/0.0.1366.640@0.0.1366.640" timestamp="1606907534705" />
+    <state width="1323" height="387" key="GridCell.Tab.0.left" timestamp="1606907534705">
       <screen x="0" y="0" width="1366" height="640" />
     </state>
-    <state width="1323" height="130" key="GridCell.Tab.0.left/0.0.1366.640@0.0.1366.640" timestamp="1606892664118" />
-    <state width="1323" height="130" key="GridCell.Tab.0.right" timestamp="1606892664118">
+    <state width="1323" height="387" key="GridCell.Tab.0.left/0.0.1366.640@0.0.1366.640" timestamp="1606907534705" />
+    <state width="1323" height="387" key="GridCell.Tab.0.right" timestamp="1606907534705">
       <screen x="0" y="0" width="1366" height="640" />
     </state>
-    <state width="1323" height="130" key="GridCell.Tab.0.right/0.0.1366.640@0.0.1366.640" timestamp="1606892664118" />
+    <state width="1323" height="387" key="GridCell.Tab.0.right/0.0.1366.640@0.0.1366.640" timestamp="1606907534705" />
     <state x="387" y="211" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1606887988523">
       <screen x="0" y="0" width="1366" height="640" />
     </state>
