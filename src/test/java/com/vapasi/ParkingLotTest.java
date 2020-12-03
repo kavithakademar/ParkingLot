@@ -1,14 +1,16 @@
 package com.vapasi;
 
-import org.junit.jupiter.api.*;
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 public class ParkingLotTest {
     static ParkingLot parkingLot;
-
-    private static Object token;
     static Car car;
+    private static Object token;
 
     @BeforeAll
     public static void setup() {
@@ -33,12 +35,11 @@ public class ParkingLotTest {
     @Test
     public void shouldThrowExceptionWhenUnParkUsedInvalidToken() {
         token = null;
-        assertThrows(InvalidTokenException.class , () -> parkingLot.unPark(token));
+        assertThrows(InvalidTokenException.class, () -> parkingLot.unPark(token));
     }
 
 
     @Test
-    @Order(4)
     public void shouldThrowExceptionWhenTheParkingLotLimitIsOver() {
         token = parkingLot.park(car);
         assertTrue(parkingLot.isParked(car));
@@ -46,7 +47,18 @@ public class ParkingLotTest {
         token = parkingLot.park(car);
         assertTrue(parkingLot.isParked(car));
 
-        assertThrows(ParkingLotLimitIsOverException.class , () -> parkingLot.park(car));
+        assertThrows(ParkingLotLimitIsOverException.class, () -> parkingLot.park(car));
+    }
+
+    @Test
+    public void shouldNotifyParkingLotOwnerThatParkingIsFull() {
+        token = parkingLot.park(car);
+        parkingLot.isParked(car);
+
+        token = parkingLot.park(car);
+        parkingLot.isParked(car);
+        ParkingOwner parkingOwner = new ParkingOwner();
+        assertTrue(parkingOwner.isParkingFull);
     }
 
     @AfterEach

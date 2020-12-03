@@ -20,15 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b0dc898-2f07-4e0b-a2c8-f21fb1dfbedf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ParkingLot/src/main/java/com/vapasi/ParkingLotLimitIsOverException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ParkingLot/src/main/java/com/vapasi/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/ParkingLot/src/main/java/com/vapasi/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ParkingLot/src/main/java/com/vapasi/ParkingLot.java" beforeDir="false" afterPath="$PROJECT_DIR$/ParkingLot/src/main/java/com/vapasi/ParkingLot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ParkingLot/src/test/java/com/vapasi/ParkingLotTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ParkingLot/src/test/java/com/vapasi/ParkingLotTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ParkingLot/com/vapasi/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ParkingLot/com/vapasi/Car.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ParkingLot/com/vapasi/ParkingLot.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ParkingLot/com/vapasi/ParkingLot.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/ParkingLot/com/vapasi/ParkingLotTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/ParkingLot/com/vapasi/ParkingLotTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vapasi/InvalidTokenException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vapasi/InvalidTokenException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vapasi/ParkingLot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vapasi/ParkingLot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vapasi/ParkingLotLimitIsOverException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vapasi/ParkingLotLimitIsOverException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vapasi/ParkingOwner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vapasi/ParkingOwner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vapasi/ParkingLotTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vapasi/ParkingLotTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +63,7 @@
       <recent name="com.vapasi" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ParkingLotTest">
+  <component name="RunManager" selected="JUnit.ParkingLotTest.shouldNotifyParkingLotOwnerThatParkingIsFull">
     <configuration name="ParkingLotTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ParkingLot" />
       <extension name="coverage">
@@ -79,6 +75,22 @@
       <option name="PACKAGE_NAME" value="com.vapasi" />
       <option name="MAIN_CLASS_NAME" value="com.vapasi.ParkingLotTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParkingLotTest.shouldNotifyParkingLotOwnerThatParkingIsFull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ParkingLot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vapasi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.vapasi" />
+      <option name="MAIN_CLASS_NAME" value="com.vapasi.ParkingLotTest" />
+      <option name="METHOD_NAME" value="shouldNotifyParkingLotOwnerThatParkingIsFull" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -115,22 +127,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParkingLotTest.shouldThrowExceptionWhenUnParkUsedInvalidToken" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ParkingLot" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.vapasi.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.vapasi" />
-      <option name="MAIN_CLASS_NAME" value="com.vapasi.ParkingLotTest" />
-      <option name="METHOD_NAME" value="shouldThrowExceptionWhenUnParkUsedInvalidToken" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ParkingLotTest.shouldUnParkMyCar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ParkingLot" />
       <extension name="coverage">
@@ -149,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ParkingLotTest.shouldNotifyParkingLotOwnerThatParkingIsFull" />
         <item itemvalue="JUnit.ParkingLotTest" />
         <item itemvalue="JUnit.ParkingLotTest.shouldUnParkMyCar" />
         <item itemvalue="JUnit.ParkingLotTest.shouldThrowExceptionWhenTheParkingLotLimitIsOver" />
         <item itemvalue="JUnit.ParkingLotTest.shouldParkMyCarAndCheckIfItParkedOrNot" />
-        <item itemvalue="JUnit.ParkingLotTest.shouldThrowExceptionWhenUnParkUsedInvalidToken" />
       </list>
     </recent_temporary>
   </component>
@@ -189,22 +185,26 @@
       <screen x="0" y="0" width="1366" height="640" />
     </state>
     <state x="463" y="74" key="FileChooserDialogImpl/0.0.1366.640@0.0.1366.640" timestamp="1606909084843" />
-    <state width="1323" height="67" key="GridCell.Tab.0.bottom" timestamp="1606973371352">
+    <state width="1323" height="322" key="GridCell.Tab.0.bottom" timestamp="1606979763484">
       <screen x="0" y="0" width="1366" height="640" />
     </state>
-    <state width="1323" height="67" key="GridCell.Tab.0.bottom/0.0.1366.640@0.0.1366.640" timestamp="1606973371352" />
-    <state width="1323" height="67" key="GridCell.Tab.0.center" timestamp="1606973371352">
+    <state width="1323" height="322" key="GridCell.Tab.0.bottom/0.0.1366.640@0.0.1366.640" timestamp="1606979763484" />
+    <state width="1323" height="322" key="GridCell.Tab.0.center" timestamp="1606979763484">
       <screen x="0" y="0" width="1366" height="640" />
     </state>
-    <state width="1323" height="67" key="GridCell.Tab.0.center/0.0.1366.640@0.0.1366.640" timestamp="1606973371352" />
-    <state width="1323" height="67" key="GridCell.Tab.0.left" timestamp="1606973371352">
+    <state width="1323" height="322" key="GridCell.Tab.0.center/0.0.1366.640@0.0.1366.640" timestamp="1606979763484" />
+    <state width="1323" height="322" key="GridCell.Tab.0.left" timestamp="1606979763484">
       <screen x="0" y="0" width="1366" height="640" />
     </state>
-    <state width="1323" height="67" key="GridCell.Tab.0.left/0.0.1366.640@0.0.1366.640" timestamp="1606973371352" />
-    <state width="1323" height="67" key="GridCell.Tab.0.right" timestamp="1606973371352">
+    <state width="1323" height="322" key="GridCell.Tab.0.left/0.0.1366.640@0.0.1366.640" timestamp="1606979763484" />
+    <state width="1323" height="322" key="GridCell.Tab.0.right" timestamp="1606979763484">
       <screen x="0" y="0" width="1366" height="640" />
     </state>
-    <state width="1323" height="67" key="GridCell.Tab.0.right/0.0.1366.640@0.0.1366.640" timestamp="1606973371352" />
+    <state width="1323" height="322" key="GridCell.Tab.0.right/0.0.1366.640@0.0.1366.640" timestamp="1606979763484" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1606979096698">
+      <screen x="0" y="0" width="1366" height="640" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1366.640@0.0.1366.640" timestamp="1606979096698" />
     <state x="387" y="211" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1606887988523">
       <screen x="0" y="0" width="1366" height="640" />
     </state>
