@@ -6,13 +6,16 @@ import java.util.Map;
 public class ParkingLot {
     static final  int INITIAL_CAPACITY = 2;
     static Map<Object, Car> parkingSlots = new HashMap<>(INITIAL_CAPACITY);
+    boolean isAvailable = true;
+    ParkingOwner parkingOwner = new ParkingOwner();
 
     public Object park(Car car) {
-        if(parkingSlots.size() == INITIAL_CAPACITY) {
+        if(!isAvailable) {
             throw new ParkingLotLimitIsOverException("The parking lot is full");
         }
         Object token = new Object();
         parkingSlots.put(token, car);
+        setParkingLotState();
         return token;
     }
 
@@ -26,7 +29,16 @@ public class ParkingLot {
         }
         Car car = parkingSlots.get(token);
         parkingSlots.remove(token);
+        setParkingLotState();
         return car;
     }
 
+
+    public void setParkingLotState()  {
+        isAvailable = true;
+        if(parkingSlots.size() == INITIAL_CAPACITY){
+            isAvailable = false;
+           parkingOwner.notifyTheParkingIsFull(isAvailable);
+        }
+    }
 }

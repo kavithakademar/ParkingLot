@@ -38,7 +38,6 @@ public class ParkingLotTest {
 
 
     @Test
-    @Order(4)
     public void shouldThrowExceptionWhenTheParkingLotLimitIsOver() {
         token = parkingLot.park(car);
         assertTrue(parkingLot.isParked(car));
@@ -47,6 +46,17 @@ public class ParkingLotTest {
         assertTrue(parkingLot.isParked(car));
 
         assertThrows(ParkingLotLimitIsOverException.class , () -> parkingLot.park(car));
+    }
+
+    @Test
+    public void shouldNotifyParkingLotOwnerThatParkingIsFull() {
+        token = parkingLot.park(car);
+        parkingLot.isParked(car);
+
+        token = parkingLot.park(car);
+        parkingLot.isParked(car);
+        ParkingOwner parkingOwner = new ParkingOwner();
+        assertTrue(parkingOwner.isParkingFull);
     }
 
     @AfterEach
