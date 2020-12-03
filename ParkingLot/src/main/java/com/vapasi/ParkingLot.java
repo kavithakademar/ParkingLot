@@ -4,9 +4,13 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class ParkingLot {
-    static Map<Object, Car> parkingSlots = new HashMap<>();
+    static final  int INITIAL_CAPACITY = 2;
+    static Map<Object, Car> parkingSlots = new HashMap<>(INITIAL_CAPACITY);
 
     public Object park(Car car) {
+        if(parkingSlots.size() == INITIAL_CAPACITY) {
+            throw new ParkingLotLimitIsOverException("The parking lot is full");
+        }
         Object token = new Object();
         parkingSlots.put(token, car);
         return token;
