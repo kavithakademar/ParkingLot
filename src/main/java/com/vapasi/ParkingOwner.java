@@ -1,13 +1,10 @@
 package com.vapasi;
 
 public class ParkingOwner {
-    boolean isParkingFull = true;
+    boolean isParkingFull = false;
 
-    public void notifyTheParkingIsFull(boolean isParkingFull) {
-        this.isParkingFull = isParkingFull;
+    public void notifyTheParkingIsFull() {
+        this.isParkingFull = true;
     }
 
-    public void notifyTheParkingIsEmpty(boolean isParkingFull) {
-        this.isParkingFull = isParkingFull;
-    }
 }

@@ -20,17 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b0dc898-2f07-4e0b-a2c8-f21fb1dfbedf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/vapasi/ParkingOwner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ParkingLot/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ParkingLot/src/main/java/com/vapasi/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vapasi/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ParkingLot/src/main/java/com/vapasi/InvalidTokenException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vapasi/InvalidTokenException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ParkingLot/src/main/java/com/vapasi/ParkingLot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vapasi/ParkingLot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ParkingLot/src/main/java/com/vapasi/ParkingLotLimitIsOverException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vapasi/ParkingLotLimitIsOverException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ParkingLot/src/test/java/com/vapasi/ParkingLotTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vapasi/ParkingLotTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ParkingLot/com/vapasi/ParkingLot.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ParkingLot/com/vapasi/ParkingLot.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/ParkingLot/com/vapasi/ParkingLotTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/ParkingLot/com/vapasi/ParkingLotTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vapasi/InvalidTokenException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vapasi/InvalidTokenException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vapasi/ParkingLot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vapasi/ParkingLot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vapasi/ParkingLotLimitIsOverException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vapasi/ParkingLotLimitIsOverException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vapasi/ParkingOwner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vapasi/ParkingOwner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vapasi/ParkingLotTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vapasi/ParkingLotTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
